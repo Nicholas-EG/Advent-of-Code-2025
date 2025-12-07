@@ -61,7 +61,6 @@ function partTwo() {
         for (let j = 0; j < hw.length - 1; j++) {
             terms.push(hw[j][i])
         }
-        let term = 
         sum += operate(hw[hw.length - 1][i][0], ...rewriteNumbers(...terms));
     }
     console.log(sum)
